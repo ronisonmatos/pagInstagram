@@ -72,16 +72,3 @@ sendEvent({
 });
 
 
-//Pixel do Meta Facebook
-document.getElementById("btn-whatsapp").addEventListener("click", () => {
-  fbq('track', 'Contact', { method: 'WhatsApp' });
-});
-
-document.getElementById("btn-site").addEventListener("click", () => {
-  fbq('track', 'ViewContent', { content_name: 'Site' });
-});
-
-document.getElementById("btn-prevenda").addEventListener("click", () => {
-  fbq('track', 'ViewContent', { item: 'Crucifixo Realista' });
-});
-
