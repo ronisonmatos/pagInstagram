@@ -82,6 +82,6 @@ document.getElementById("btn-site").addEventListener("click", () => {
 });
 
 document.getElementById("btn-prevenda").addEventListener("click", () => {
-  fbq('track', 'Purchase', { item: 'Crucifixo Realista' });
+  fbq('track', 'ViewContent', { item: 'Crucifixo Realista' });
 });
 
