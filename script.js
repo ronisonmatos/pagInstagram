@@ -61,7 +61,7 @@ document.getElementById("btn-site").addEventListener("click", () => {
 
 document.getElementById("btn-prevenda").addEventListener("click", () => {
   sendEvent({ projectToken: PROJECT_TOKEN, category: "button", message: "Usuário clicou na Pré-venda" });
-  window.open("https://crucifixo.ateliesagradadevocao.com.br/", "_blank");
+  window.open("https://chat.whatsapp.com/J4Km65g8B6sD5DUucErbMA", "_blank");
 });
 
 // Evento de visualização da página
